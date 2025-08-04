@@ -5,6 +5,6 @@ venv
 .terraform*
 *__
 __init*
-ingestion/*
+dags/ingestion/
 *api_to_rds.py
 *rds_instance.tf
