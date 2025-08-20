@@ -47,13 +47,7 @@ resource "aws_iam_policy" "redshift_s3_access" {
         "arn:aws:s3:::football-transactions",
         "arn:aws:s3:::football-transactions/*"
       ]
-      },
-      {
-        "Effect" : "Allow",
-        "Action" : "redshift-data:*",
-        "Resource" : "*"
-      }
-    ]
+    }]
   })
 }
 
@@ -101,6 +95,3 @@ resource "aws_redshift_cluster" "redshift_cluster" {
 
 
 }
-
-
-
