@@ -38,7 +38,7 @@ Orchestrated with Apache Airflow | Provisioned with Terraform
      - Generate → Store in S3 → Load into Redshift.  
 
 3. **Data Storage**  
-   - **S3** holds raw JSON/CSV data.  
+   - **S3** holds raw PARQUET data.  
    - **Redshift** stores transformed, query-ready tables.  
 
 4. **Infrastructure**  
