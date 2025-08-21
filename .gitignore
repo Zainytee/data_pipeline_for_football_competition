@@ -7,5 +7,4 @@ venv/
 __init*
 utils/
 faker_to_rds.py
-.terraform.*
 README.md
