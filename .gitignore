@@ -5,6 +5,7 @@ venv/
 .terraform*/
 *__
 __init*
-ingestion/
-api_to_rds.py
-rds_instance.tf
+utils/
+faker_to_rds.py
+.terraform.*
+README.md
